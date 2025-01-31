@@ -18,7 +18,31 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Path Aliases */
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/common/*"],
+      "@atoms/*": ["src/components/atoms/*"],
+      "@layouts/*": ["src/components/layouts/*"],
+      "@pages/*": ["src/pages/*"],
+      "@config/*": ["src/config/*"],
+      "@styles/*": ["src/assets/css/*"],
+      "@images/*": ["src/assets/images/*"],
+      "@utils/*": ["src/utils/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@redux/*": ["src/redux/*"],
+      "@reduxActions/*": ["src/redux/actions/*"],
+      "@reduxSlices/*": ["src/redux/slices/*"],
+      "@enums/*": ["src/typings/enums/*"],
+      "@interfaces/*": ["src/typings/interfaces/*"],
+      "@responses/*": ["src/typings/interfaces/responses/*"],
+      "@requests/*": ["src/typings/interfaces/requests/*"],
+      "@providers/*": ["src/providers/*"],
+      "@data/*": ["src/data/*"],
+      "@services/*": ["src/services/*"]
+    }
   },
   "include": ["vite.config.ts"]
 }
