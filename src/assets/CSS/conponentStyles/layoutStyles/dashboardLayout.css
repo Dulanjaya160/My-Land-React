@@ -1,0 +1,36 @@
+.dashboardLayout{
+    display: flex;
+
+}
+.sideNav{
+    background: rgba(32, 32, 32, 1);
+    color: white;
+    height: 100vh;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 32px;
+    /* justify-content: space-between; */
+    gap: 64px;
+}
+.sideNav ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+}
+.sideNav ul li{
+    padding: 12px 24px;
+}
+.sideNav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.selectedMenuItem{
+    background: rgba(196, 128, 50, 1);
+    color: black;
+}
+.sideNav .logo{
+    width: 80%;
+}
